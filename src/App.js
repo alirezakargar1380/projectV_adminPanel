@@ -25,6 +25,12 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+    this.setState({
+      login: false
+    })
+  }
+
   render() {
     return (
       <HashRouter>
